@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aa1ff7e6d95378d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS Quirks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XSS.md",
+                "file": "JS Quirks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XSS.md",
+                "file": "JS Quirks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XSS.md"
+                "file": "JS Quirks.md"
               }
             }
           }
@@ -136,14 +149,15 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "7d3af73ed8d4d314",
+  "active": "aa1ff7e6d95378d2",
   "lastOpenFiles": [
     "Pasted image 20221119015550.png",
-    "JS Quirks.md",
-    "SQLi.md",
     "XSS.md",
-    "General Research Notes.md",
+    "SQLi.md",
     "Regex.md",
-    "Python Version Mangement.md"
+    "Python Version Mangement.md",
+    "JS Quirks.md",
+    "Browser Security.md",
+    "General Research Notes.md"
   ]
 }

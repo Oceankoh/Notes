@@ -46,11 +46,13 @@ Assuming you have a sink within a script tag, such as
 If there are no filters, you could escape with `'; alert(1); //`
 However, if `;` were filtered, it is still possible to execute functions via type juggling. A payload such as `' - alert(1) - '`, would cause js to perform arithmetic operations on the result of the function `alert(1)`, thus triggering the XSS. 
 
+## Chaining `iframe` and `onresize` 
 
+If you are able to embed the vulnerable website in an iframe, you might be able to cause an xss through the `onresize` event handler. To trigger this event, embed the website in an iframe deployed on attacker.com and resize it onload. Example as shown:
 
-
-
-
+```js
+<iframe src="vulnerablesite.com" onload=this.style.width='100px'>
+```
 
 
 # XSS Tips
