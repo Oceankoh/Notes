@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "69265ffa87273c2f",
+        "id": "c5abb9aee570a279",
         "type": "tabs",
         "children": [
           {
-            "id": "f5fc98b69e813a34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQLi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "006be3410ebba079",
+            "id": "7d3af73ed8d4d314",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "15ea914846321dc7",
@@ -146,11 +133,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
-  "active": "c192dda142dea295",
+  "active": "7d3af73ed8d4d314",
   "lastOpenFiles": [
+    "Pasted image 20221119015550.png",
+    "JS Quirks.md",
     "SQLi.md",
+    "XSS.md",
     "General Research Notes.md",
     "Regex.md",
     "Python Version Mangement.md"

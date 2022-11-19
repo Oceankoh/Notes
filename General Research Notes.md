@@ -1,3 +1,5 @@
+# Terms
+
 ## Common Vulnerabilities and Exposures (CVE)
 
 List of disclosed computer security flaws in consumer software and hardware. Maintain by the MITRE Corporation. For a vulnerability to qualify as a CVE, it must meet a certain set of critieria. 
@@ -53,3 +55,8 @@ U.S. government repository of standards based vulernability management data repr
 
 Public announcement for reported security vulnerabilities that document remediation steps. 
 
+
+
+
+# Setup Environment
+# Approach to Pentesting
