@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c5abb9aee570a279",
+        "id": "69265ffa87273c2f",
         "type": "tabs",
         "children": [
           {
-            "id": "7d3af73ed8d4d314",
+            "id": "f5fc98b69e813a34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XSS.md",
+                "file": "SQLi.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aa1ff7e6d95378d2",
+            "id": "006be3410ebba079",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS Quirks.md",
+                "file": "Browser Security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf22700868a803fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSRF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "15ea914846321dc7",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS Quirks.md",
+                "file": "CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS Quirks.md",
+                "file": "CSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS Quirks.md"
+                "file": "CSRF.md"
               }
             }
           }
@@ -146,18 +158,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
-  "active": "aa1ff7e6d95378d2",
+  "active": "cf22700868a803fe",
   "lastOpenFiles": [
-    "Pasted image 20221119015550.png",
-    "XSS.md",
-    "SQLi.md",
-    "Regex.md",
-    "Python Version Mangement.md",
     "JS Quirks.md",
+    "XSS.md",
+    "CSRF.md",
     "Browser Security.md",
-    "General Research Notes.md"
+    "SQLi.md",
+    "General Research Notes.md",
+    "Regex.md",
+    "Python Version Mangement.md"
   ]
 }

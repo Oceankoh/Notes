@@ -10,4 +10,18 @@ Response Headers
 ## Access-Control-Allow-Methods
 ## Access-Control-Allow-Headers
 
+# CSP
+CSP is short for Content Security Policy. It outlines the rules for a 
+
+# Cookie Protection
+
+## Secure
+## Same-Site
+## HttpOnly
+## Host Only
+## Path
+## Domain
+
+
+
 
