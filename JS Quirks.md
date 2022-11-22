@@ -43,3 +43,11 @@ fetch('https://example.com:1234/users', {
 
 This is necessary to perform attacks like CSRF where it requires your attacker site to perform cross-origin requests using the victim's cookies. This also applies to fetch requests used to set cookies on a different origin. 
 
+## Constructor Class
+
+Each function object has a constructor object that created the function. The constructor of the constructor object hence has the ability to create functions. For example, 
+
+```js
+const foo = Function('alert(1)'); // creates a function foo that executes alert(1)
+const bar = func.constructor.constructor('alert(2)'); // references the constructor.constructor function to create another function bar
+```

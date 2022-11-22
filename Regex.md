@@ -1,4 +1,4 @@
-## Cheat Sheet
+# Cheat Sheet
 
 [https://www.rexegg.com/regex-quickstart.html](https://www.rexegg.com/regex-quickstart.html)
 
@@ -17,5 +17,21 @@
 |`(?:(?<=http:\/\/)\|(?<=ftp:)\|(?<=https:\/\/)).+`| Matches everything after the protocol|
 
 
+# Common Regex Mistakes
 
+## Not escaping special characters
+
+Given the task to match all subdomains and main domain of `google.com`, a common mistake a developer might make would be to use the following regex:
+
+```regex
+/.*google.com$/
+/.google.com/
+```
+
+This is vulnerable as the following invalid inputs would still be matched by the regex. 
+
+```
+somethinggoogle.com
+agoogle.com
+```
 

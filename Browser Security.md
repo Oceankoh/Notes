@@ -22,6 +22,15 @@ CSP is short for Content Security Policy. It outlines the rules for a
 ## Path
 ## Domain
 
+# Header Spoofing
+
+## Simple Requests
+
+Defined as ... 
+
+## Referer Policy
+
+Prevent spoofing of referer header.
 
 
 
