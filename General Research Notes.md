@@ -55,8 +55,10 @@ U.S. government repository of standards based vulernability management data repr
 
 Public announcement for reported security vulnerabilities that document remediation steps. 
 
+# CNA
 
+Short for CVE Numbering Authority. A manufacturer can but might not necessarily be a CNA. A manufacturer that is not a CNA will need to approach a CNA with the vulnerability to obtain a CVE. 
 
+# Bug Brokers
 
-# Setup Environment
-# Approach to Pentesting
+Middlemen who faciliate the bug bounties. They buy your bug and disclose it to the partnered organisations.

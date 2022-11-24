@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5fc98b69e813a34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQLi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "006be3410ebba079",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Browser Security.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf22700868a803fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS Quirks.md",
+                "file": "Browser Protections.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regex.md",
+                "file": "CSRF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regex.md",
+                "file": "Browser Protections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regex.md",
+                "file": "Browser Protections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regex.md"
+                "file": "Browser Protections.md"
               }
             }
           }
@@ -170,18 +145,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 208.5,
+    "collapsed": true
   },
-  "active": "fc82310f839a317c",
+  "active": "006be3410ebba079",
   "lastOpenFiles": [
-    "Browser Security.md",
     "CSRF.md",
     "General Research Notes.md",
-    "JS Quirks.md",
-    "Python Version Mangement.md",
-    "Regex.md",
     "SQLi.md",
     "Web Workers.md",
+    "Regex.md",
+    "Python Version Mangement.md",
+    "JS Quirks.md",
+    "Pasted image 20221123112609.png",
+    "Browser Protections.md",
     "XSS.md"
   ]
 }
