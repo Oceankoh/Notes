@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Browser Protections.md",
+                "file": "Python Version Mangement.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Browser Protections.md",
+                "file": "Python Version Mangement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Browser Protections.md",
+                "file": "Python Version Mangement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Browser Protections.md"
+                "file": "Python Version Mangement.md"
               }
             }
           }
@@ -150,15 +150,15 @@
   },
   "active": "006be3410ebba079",
   "lastOpenFiles": [
-    "CSRF.md",
+    "JS Quirks.md",
     "General Research Notes.md",
+    "CSRF.md",
+    "Browser Protections.md",
     "SQLi.md",
     "Web Workers.md",
     "Regex.md",
     "Python Version Mangement.md",
-    "JS Quirks.md",
     "Pasted image 20221123112609.png",
-    "Browser Protections.md",
     "XSS.md"
   ]
 }

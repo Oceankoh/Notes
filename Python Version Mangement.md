@@ -9,4 +9,3 @@ Python pip follows the global version, unless a virtual environment is created, 
 `pyenv` manages multiple versions of Python itself.
 `virtualenv`/`venv` manages virtual environments for a specific Python version.
 `pyenv-virtualenv` manages virtual environments for across varying versions of Python.
-
