@@ -87,7 +87,7 @@ There are two possible directives for `X-Frame-Options`: `DENY`, `SAMEORIGIN`. 
 
 ## Referer Policy
 
-Prevent spoofing of referer header.
+Prevent spoofing of referer header. You cannot programmatically spoof the referrer header coming from the browser. You can however define how verbose the refferer header is on an attacker controlled website by setting the referer policy. 
 
 
 

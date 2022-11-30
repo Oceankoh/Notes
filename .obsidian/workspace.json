@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Version Mangement.md",
+                "file": "Browser Protections.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSRF.md",
+                "file": "Clientside Tips.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Version Mangement.md",
+                "file": "Clientside Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Version Mangement.md",
+                "file": "Clientside Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Version Mangement.md"
+                "file": "Clientside Tips.md"
               }
             }
           }
@@ -148,17 +149,17 @@
     "width": 208.5,
     "collapsed": true
   },
-  "active": "006be3410ebba079",
+  "active": "fc82310f839a317c",
   "lastOpenFiles": [
-    "JS Quirks.md",
+    "Browser Protections.md",
+    "Python Version Mangement.md",
+    "Clientside Tips.md",
+    "XSS.md",
+    "Web Workers.md",
+    "SQLi.md",
     "General Research Notes.md",
     "CSRF.md",
-    "Browser Protections.md",
-    "SQLi.md",
-    "Web Workers.md",
     "Regex.md",
-    "Python Version Mangement.md",
-    "Pasted image 20221123112609.png",
-    "XSS.md"
+    "Pasted image 20221123112609.png"
   ]
 }

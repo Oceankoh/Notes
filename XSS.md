@@ -53,35 +53,3 @@ If you are able to embed the vulnerable website in an iframe, you might be able 
 ```js
 <iframe src="vulnerablesite.com" onload=this.style.width='100px'>
 ```
-
-
-# XSS Tips
-
-## Inspector vs Source
-
-In most cases, viewing source directly through Burp Repeater or `Ctrl+u` is more reliable as you're able to see the unprocessed HTML. This is makes it easier to distinguished whether you have escaped whatever context. Using inspector would show the processed output after the browser tries to correct intentionally wrong HTML syntax. 
-
-However, when it comes to DOM-based XSS which uses javascript to populate the DOM `onload`, viewing source would not allow you to see the changes made by javascript. In this scenario, inspector is more suitable. 
-
-## Waiting for DOM to load
-
-After obtaining XSS via script injection, you might have to wait till the DOM loads to access elements within the DOM. To do so, you might have to use an event listener such as the following. 
-
-```js
-<script>
-document.addEventListener("DOMContentLoaded", function() { 
-	const formData ={ 
-		'csrf': document.querySelector('input[name="csrf"]').value,
-		'email': 'email@email.com'
-	};
-	fetch('/my-account/change-email', {
-		method:'POST', 
-		body: formData,
-	});
-});
-</script>
-```
-
-## Eval with backticks
-
-Backticks in JS represent template strings. If there is an input is reflected in a template string, you can execute javascript with `${<js here}`.
