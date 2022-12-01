@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serverside Tips.md",
+                "file": "Python Version Mangement.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serverside Tips.md",
+                "file": "Python Version Mangement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serverside Tips.md",
+                "file": "Python Version Mangement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serverside Tips.md"
+                "file": "Python Version Mangement.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "ae5686c9e9cfb5ec",
   "lastOpenFiles": [
-    "Clientside Tips.md",
     "Serverside Tips.md",
+    "Clientside Tips.md",
     "Browser Protections.md",
     "Python Version Mangement.md",
     "XSS.md",
