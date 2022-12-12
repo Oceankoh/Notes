@@ -11,9 +11,19 @@
             "id": "006be3410ebba079",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20221208190042.png"
+              }
+            }
+          },
+          {
+            "id": "6d50f3fe8e676aec",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Browser Protections.md",
+                "file": "OAuth.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prototype Pollution.md",
+                "file": "OAuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prototype Pollution.md",
+                "file": "OAuth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prototype Pollution.md"
+                "file": "OAuth.md"
               }
             }
           }
@@ -197,17 +207,17 @@
     "width": 208.5,
     "collapsed": true
   },
-  "active": "2750221936abd85c",
+  "active": "6d50f3fe8e676aec",
   "lastOpenFiles": [
-    "PHP Versions.md",
-    "Browser Protections.md",
-    "Web Workers.md",
+    "Pasted image 20221208190042.png",
     "Javascript Inner Workings.md",
+    "Browser Protections.md",
+    "Prototype Pollution.md",
+    "PHP Versions.md",
+    "Web Workers.md",
     "XSS.md",
     "Insecure Deserialization.md",
     "SQLi.md",
-    "Serverside Tips.md",
-    "Regex.md",
-    "Python Version Mangement.md"
+    "Serverside Tips.md"
   ]
 }
