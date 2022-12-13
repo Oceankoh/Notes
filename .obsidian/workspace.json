@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAuth.md",
+                "file": "XSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAuth.md",
+                "file": "XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAuth.md",
+                "file": "XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAuth.md"
+                "file": "XSS.md"
               }
             }
           }
@@ -209,15 +209,15 @@
   },
   "active": "6d50f3fe8e676aec",
   "lastOpenFiles": [
+    "Prototype Pollution.md",
     "Pasted image 20221208190042.png",
+    "OAuth.md",
     "Javascript Inner Workings.md",
     "Browser Protections.md",
-    "Prototype Pollution.md",
     "PHP Versions.md",
     "Web Workers.md",
     "XSS.md",
     "Insecure Deserialization.md",
-    "SQLi.md",
-    "Serverside Tips.md"
+    "SQLi.md"
   ]
 }

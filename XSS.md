@@ -14,6 +14,8 @@ This is a form of persistent XSS. Data is stored in some form. When the user req
 
 ## Mutation XSS
 
+
+
 ## Universal XSS
 
 # XSS Tricks 
