@@ -30,10 +30,6 @@ With a sink in a HTML element such as
 
 Assuming you can escape the attribute with `"`, you could trigger XSS with various payloads such as `autofocus onfocus=alert(1)`. However, you could use slashses to split the attributes resulting in `autofocus/onfocus=alert(1)`. This would help to bypass any whitespace filters. 
 
-## Using unicode parsing to decode into filtered characters
-
-// TODO 
-
 ## Type Juggling to trigger function calls
 
 Assuming you have a sink within a script tag, such as 

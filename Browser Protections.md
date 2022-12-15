@@ -91,3 +91,14 @@ Prevent spoofing of referer header. You cannot programmatically spoof the referr
 
 
 
+
+
+# Site vs Origin
+
+Origin comprises of the scheme, hostname and port. 
+Site comprises of the effective TLD + 1. The list of effective TLDs can be found [here](https://publicsuffix.org/list/public_suffix_list.dat). 
+
+For instance, in the URL `https://user:pass@blog.puddle.sg:443/test`, 
+The origin is, `https://blog.puddle.sg:443`
+The site is, `puddle.sg` (effective TLD matches `sg` and `+1` matches `puddle`)
+

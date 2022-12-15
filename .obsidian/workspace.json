@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aae816d3ef01b79f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Browser Protections.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serverside Tips.md",
+                "file": "Browser Protections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serverside Tips.md",
+                "file": "Browser Protections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serverside Tips.md"
+                "file": "Browser Protections.md"
               }
             }
           }
@@ -147,17 +159,17 @@
     "width": 208.5,
     "collapsed": true
   },
-  "active": "2e016802f0343b1e",
+  "active": "aae816d3ef01b79f",
   "lastOpenFiles": [
-    "SSTI.md",
-    "Clientside Tips.md",
-    "Browser Protections.md",
-    "CSRF.md",
-    "General Research Notes.md",
-    "Insecure Deserialization.md",
-    "Javascript Inner Workings.md",
-    "OAuth.md",
+    "Web Workers.md",
+    "SQLi.md",
+    "Serverside Tips.md",
+    "Regex.md",
     "Pasted image 20221208190042.png",
-    "PHP Versions.md"
+    "OAuth.md",
+    "Javascript Inner Workings.md",
+    "Insecure Deserialization.md",
+    "General Research Notes.md",
+    "Clientside Tips.md"
   ]
 }
