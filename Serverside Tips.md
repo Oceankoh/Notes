@@ -8,6 +8,9 @@ For instance, a `.htaccess` file with the following line allows `.l33t` files to
 AddType application/x-httpd-php .l33t
 ```
 
+# Common Headers 
 
-
-	
+|Header |Description|
+| --- | --- |
+|`X-Forwarded-For`|Identifies the originating IP address of a client connecting to a web server through a proxy server|
+|`X-Forwarded-Host`|Identifies the original host requested by the client

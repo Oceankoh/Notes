@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "69265ffa87273c2f",
+        "id": "dbbbc9961027faa6",
         "type": "tabs",
         "children": [
           {
-            "id": "006be3410ebba079",
+            "id": "e888da6b9cc8bc43",
             "type": "leaf",
             "state": {
               "type": "image",
@@ -18,72 +18,12 @@
             }
           },
           {
-            "id": "6d50f3fe8e676aec",
+            "id": "2e016802f0343b1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc82310f839a317c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clientside Tips.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae5686c9e9cfb5ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "318f7ef43b2faed8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Insecure Deserialization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1769ad5e80394b22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PHP Versions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2750221936abd85c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prototype Pollution.md",
+                "file": "Serverside Tips.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XSS.md",
+                "file": "Serverside Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XSS.md",
+                "file": "Serverside Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XSS.md"
+                "file": "Serverside Tips.md"
               }
             }
           }
@@ -207,17 +147,17 @@
     "width": 208.5,
     "collapsed": true
   },
-  "active": "6d50f3fe8e676aec",
+  "active": "2e016802f0343b1e",
   "lastOpenFiles": [
-    "Prototype Pollution.md",
-    "Pasted image 20221208190042.png",
-    "OAuth.md",
-    "Javascript Inner Workings.md",
+    "SSTI.md",
+    "Clientside Tips.md",
     "Browser Protections.md",
-    "PHP Versions.md",
-    "Web Workers.md",
-    "XSS.md",
+    "CSRF.md",
+    "General Research Notes.md",
     "Insecure Deserialization.md",
-    "SQLi.md"
+    "Javascript Inner Workings.md",
+    "OAuth.md",
+    "Pasted image 20221208190042.png",
+    "PHP Versions.md"
   ]
 }
