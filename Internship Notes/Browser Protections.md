@@ -102,3 +102,4 @@ For instance, in the URL `https://user:pass@blog.puddle.sg:443/test`,
 The origin is, `https://blog.puddle.sg:443`
 The site is, `puddle.sg` (effective TLD matches `sg` and `+1` matches `puddle`)
 
+In other words, all cross-site requests are also cross-origin requests. 
