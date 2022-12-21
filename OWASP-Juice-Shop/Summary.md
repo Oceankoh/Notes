@@ -37,12 +37,13 @@ Error: Unexpected path: /rest/basket/\n    at /home/ocean/Desktop/juice-shop/bui
 ...
 ```
 
-#### Express
+#### Express ^4.17.1
 ##### Evidence
-`GET /rest/basket/` returns 
-```json
-.../home/ocean/Desktop/juice-shop/node_modules/express/lib/router/layer.js...
+[http://localhost:3000/ftp/suspicious_errors.yml](http://localhost:3000/ftp/suspicious_errors.yml) returns 
 ```
+OWASP Juice Shop (Express ^4.17.1)
+```
+
 #### Express-jwt
 ##### Evidence
 `GET /rest/basket/` returns 
@@ -60,6 +61,19 @@ Error: Unexpected path: /rest/basket/\n    at /home/ocean/Desktop/juice-shop/bui
 ...
 ```
 
+#### busboy
+##### Evidence
+`POST /rest/memories` with malformed body returns
+```
+(/home/ocean/Desktop/juice-shop/node_modules/busboy/lib/types/multipart.js:398:32)
+```
+
+#### streamsearch
+##### Evidence
+`POST /rest/memories` with malformed body returns
+```
+(/home/ocean/Desktop/juice-shop/node_modules/streamsearch/lib/sbmh.js:104:16)
+```
 ## Credentials 
 
 ### admin login credentials
@@ -73,4 +87,9 @@ admin@juice-sh.op:admin123
 
 ### SQLi in `/rest/user/login`
 ### IDOR at `/rest/basket/<id>`
+### IDOR at `/ftp/`
+### Reflected XSS in `q` param at `/#/search?q=`
+### Stored XSS at `/#/administration` and `/#/about` from `/api/Feedbacks/`
+### Broken authentication in account registration at `/api/Users`
 
+	

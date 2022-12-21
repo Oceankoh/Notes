@@ -4,22 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "202e1f8817d78cf4",
+        "id": "0cfdf9490b580d3c",
         "type": "tabs",
         "children": [
           {
-            "id": "c593164b9b53eed9",
+            "id": "60af0006661f043a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1241e3934d3f5f7d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4c45589f06122081",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template.md",
+                "file": "Endpoints/root.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "823c1d06a94c894c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a759eb6a8c074de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Endpoints/rest/chatbot/respond.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -69,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 326.5
   },
   "right": {
     "id": "d35c69e6ab68c3ba",
@@ -85,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template.md",
+                "file": "Endpoints/rest/chatbot/respond.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template.md",
+                "file": "Endpoints/rest/chatbot/respond.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template.md"
+                "file": "Endpoints/rest/chatbot/respond.md"
               }
             }
           }
@@ -136,17 +177,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c593164b9b53eed9",
+  "active": "2a759eb6a8c074de",
   "lastOpenFiles": [
-    "Endpoints/rest/languages.md",
-    "Endpoints/api/BasketItems/<id>.md",
-    "Endpoints/root.md",
-    "Endpoints/api/Feedbacks.md",
-    "Endpoints/api/Cards.md",
+    "Endpoints/rest/chatbot/status.md",
+    "Endpoints/rest/chatbot/respond.md",
+    "Endpoints/api/BasketItems/root.md",
+    "Endpoints/rest/track-order/<id>.md",
+    "Template.md",
     "Summary.md",
-    "Endpoints/rest/memories.md",
-    "Endpoints/rest/wallet/balance.md",
-    "Endpoints/api/Complaints.md",
-    "Endpoints/file-upload.md"
+    "Endpoints/api/Users.md",
+    "Endpoints/root.md",
+    "Endpoints/file-upload.md",
+    "Endpoints/api/BasketItems/<id>.md"
   ]
 }

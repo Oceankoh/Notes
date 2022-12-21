@@ -11,7 +11,6 @@ Parameters:
 - `quantity`
 
 ### Sample Request
-
 ```http
 POST /api/Recycles/ HTTP/1.1
 Host: localhost:3000

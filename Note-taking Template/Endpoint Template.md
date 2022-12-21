@@ -1,6 +1,6 @@
 ## Description
 
-Returns JSON containing contents of a user basket 
+?
 
 ## Connection Details
 
@@ -22,13 +22,6 @@ Parameters:
 
 #### Sample
 
-## Vulnerabilities
-
-### Name
-
-#### Exploit
-
-#### Impact
 
 ## Possible Attack Vectors
 
