@@ -43,6 +43,14 @@ username=admin
 
 ## Possible Attack Vectors
 
-### ?
+### HTML Injection username
 
+#### Exploit 
+1. Use POST request to set username
+2. Load page
 
+#### Impact
+
+No impact? Only user profile is affected thus far. 
+Can other users view the profile? 
+Is the username reflected anywhere else? 

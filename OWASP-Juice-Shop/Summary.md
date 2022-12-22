@@ -90,6 +90,5 @@ admin@juice-sh.op:admin123
 ### IDOR at `/ftp/`
 ### Reflected XSS in `q` param at `/#/search?q=`
 ### Stored XSS at `/#/administration` and `/#/about` from `/api/Feedbacks/`
-### Broken authentication in account registration at `/api/Users`
-
-	
+### Mass assignment in account registration at `/api/Users`
+### Code Injection at `/rest/chatbot/respond`
