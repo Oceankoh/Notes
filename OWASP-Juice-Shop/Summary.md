@@ -92,3 +92,4 @@ admin@juice-sh.op:admin123
 ### Stored XSS at `/#/administration` and `/#/about` from `/api/Feedbacks/`
 ### Mass assignment in account registration at `/api/Users`
 ### Code Injection at `/rest/chatbot/respond`
+### CSRF + XSS on `/profile`
