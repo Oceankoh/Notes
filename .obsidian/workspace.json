@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "33945ad237e32cfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "95792b1feef6e324",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff16e65b34472932",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NodeBB N-day/Hedgedoc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "deadecc0615c19b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NodeBB N-day/socket.io.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc450919eb15d98b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internship Notes/NodeJS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0116d432ed677f51",
+    "type": "split",
+    "children": [
+      {
+        "id": "afeb14a420b41ee8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "795ff92b5cec67cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "82f761b97519d6f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0a3aaccb686b0913",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "67cfee9243c07503",
+    "type": "split",
+    "children": [
+      {
+        "id": "7508adc29de607ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e39d4e338f66afa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NodeBB N-day/socket.io.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08704f7959ab01e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NodeBB N-day/socket.io.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfee0ff87b7dbae9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "86b8c709f9676fb2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NodeBB N-day/socket.io.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "deadecc0615c19b0",
+  "lastOpenFiles": [
+    "Internship Notes/NodeJS.md",
+    "NodeBB N-day/socket.io.md",
+    "Internship Notes/Pasted image 20221208190042.png",
+    "NodeBB N-day/Hedgedoc.md"
+  ]
+}
