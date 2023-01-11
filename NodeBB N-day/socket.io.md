@@ -48,6 +48,27 @@ const methodToCall = parts.reduce((prev, cur) => {
 }, Namespaces);
 ```
 
+Line: 168-178
+```js
+if (methodToCall.constructor &&	
+	methodToCall.constructor.name === "AsyncFunction"
+	) {
+	const result = await methodToCall(socket, params);
+	callback(null, result);
+} else {
+	methodToCall(socket, params, (err, result) => {
+		callback(err ? { message: err.message } : null, result);
+	});
+}
+```
+
+Example websocket message to invoke function:
+```
+427["categories.loadMore",{"cid":2,"after":1,"direction":1,"query":{},"categoryTopicSort":"newest_to_oldest"}]
+```
+
 #### Conditions
+	
+##### 
 
 ##### 

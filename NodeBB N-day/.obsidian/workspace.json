@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "9a2e693aaa2ad9ee",
+    "id": "205a7f4e77830573",
     "type": "split",
     "children": [
       {
-        "id": "f0548c24fd88a715",
+        "id": "7f35e03e099aa5bd",
         "type": "tabs",
         "children": [
           {
-            "id": "e4d428266d359b80",
+            "id": "fa1b041dfef63fa3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "69f8b61a9f92f4e0",
+    "id": "ed1336f97ab26f10",
     "type": "split",
     "children": [
       {
-        "id": "4dd5498a57a004ea",
+        "id": "fe47914fbb3ed060",
         "type": "tabs",
         "children": [
           {
-            "id": "fdd2f3c41c07bd0a",
+            "id": "27fea3f713e4d68f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "3e46714a4b0b8673",
+            "id": "7dea379ff4d9291c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "f919fb681918bfe5",
+            "id": "1b8a55aac85cfd08",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -65,18 +65,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 300
   },
   "right": {
-    "id": "d35c69e6ab68c3ba",
+    "id": "f6f212036db5e551",
     "type": "split",
     "children": [
       {
-        "id": "6f3771b3295eec71",
+        "id": "e0a72364a2a77548",
         "type": "tabs",
         "children": [
           {
-            "id": "5d0ec0bede7b4b9b",
+            "id": "427da9be50dc4cf3",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "471b28b65885643f",
+            "id": "88c6c48ebcc15ceb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "0dc1f1483185a0e4",
+            "id": "0543129498c6faee",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "e65627aec9af6571",
+            "id": "9104ec02b0d78d54",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -138,17 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fdd2f3c41c07bd0a",
-  "lastOpenFiles": [
-    "Endpoints/rest/chatbot/respond.md",
-    "Endpoints/profile.md",
-    "Summary.md",
-    "Endpoints/root.md",
-    "Endpoints/rest/user/data-export.md",
-    "Template.md",
-    "Endpoints/api/Feedbacks.md",
-    "Endpoints/api/Quantitys.md",
-    "Endpoints/api/Recycles.md",
-    "Endpoints/api/Users.md"
-  ]
+  "active": "fa1b041dfef63fa3",
+  "lastOpenFiles": []
 }
